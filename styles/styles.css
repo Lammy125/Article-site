@@ -11,6 +11,20 @@
 nav {
     background-color: black;
     height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+#createNews:link {
+    margin: 5px 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+#createNews:hover {
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #95c9e6;
 }
 h1 {
     text-align: center;
@@ -43,7 +57,36 @@ a:link {
 }
 a:hover {
     border-radius: 5px;
-    text-shadow: 1px 1px 5px #95c9e6;
+    box-shadow: 3px 3px 10px #95c9e6;
     background-color: #95c9e6;
     padding: 5px;
+}
+form {
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+}
+form fieldset {
+    border: 1px solid #c1bfbf;
+    padding: .3rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+#createBtn {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    border-bottom: 1px solid;
+}
+#createBtn:hover {
+    padding: 6px;
+    cursor: pointer;
+    background-color: #95c9e6;
+    color: black;
+    border-color: black;
+    box-shadow: 3px 3px 10px #95c9e6;
 }
