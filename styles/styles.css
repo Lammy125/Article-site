@@ -72,6 +72,15 @@ form fieldset {
     margin: 1rem;
     border-radius: 5px;
 }
+form fieldset input {
+    width: 97%;
+    border: 1px solid #e8e7e7;
+    padding: 5px;
+    border-radius: 3px;
+}
+form fieldset input:focus {
+    outline-color: #e8e7e7;
+}
 #createBtn {
     padding: 5px;
     border-radius: 5px;
@@ -89,4 +98,65 @@ form fieldset {
     color: black;
     border-color: black;
     box-shadow: 3px 3px 10px #95c9e6;
+}
+#title {
+    text-align: center;
+}
+#newsText {
+    font-style: italic;
+    text-align: center;
+    width: 98%;
+}
+#commentSection {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#commentList {
+    width: 500px;
+}
+#commentForm {
+    width: 700px;
+}
+#commentHeader {
+    font-size: 25px;
+}
+h3 {
+    font-size: 25px;
+    color: #006e8c;
+    text-align: center;
+}
+#name {
+    border: 1px solid #e8e7e7;
+    padding: 5px;
+    border-radius: 3px;
+    width: 300px;
+}
+#commentValue {
+    border: 1px solid #e8e7e7;
+    padding: 5px;
+    border-radius: 3px;
+    width: 300px;
+    margin-top: 5px;
+}
+#name:focus {
+    outline-color: #e8e7e7;
+}
+#commentValue:focus {
+    outline-color: #e8e7e7;
+}
+#sendComment {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #b1d0e0;
+    margin-top: 5px;
+    background-color: #b1d0e0;
+    color: #006e8c;
+}
+#sendComment:hover {
+    padding: 7px;
+    background-color: #95c9e6;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #95c9e6;
+    border-bottom: 1px solid;
 }

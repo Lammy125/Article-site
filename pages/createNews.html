@@ -14,27 +14,27 @@
             <h1>Create News</h1>
         </header>
 
-        <form>
-            <h3>Fill details</h3>
+        <form id="createForm">
+            <h3 id="h3Header">Fill details</h3>
 
             <fieldset>
                 <legend>Author</legend>
-                <input type="text">
+                <input type="text" id="author" required>
             </fieldset>
 
             <fieldset>
                 <legend>News Title</legend>
-                <input type="text">
+                <input type="text" id="newsTitle" required>
             </fieldset>
 
             <fieldset>
                 <legend>News URL</legend>
-                <input type="text">
+                <input type="text" id="newsUrl" required>
             </fieldset>
 
             <fieldset>
                 <legend>Avatar Link</legend>
-                <input type="text">
+                <input type="text" id="avatarLink" required>
             </fieldset>
 
             <button type="submit" id="createBtn">Create</button>
@@ -42,6 +42,6 @@
         </form>
        
     </main>
-    
+    <script src="/scripts/createNews.js"></script>
 </body>
 </html>
